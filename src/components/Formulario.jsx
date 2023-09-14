@@ -76,10 +76,10 @@ if([nombre, propietario, email, fecha, sintomas].includes('')) {
 
 
   return (
-    <div className="md:w-1/2 lg:w2/5">
+    <div className="md:w-1/2 lg:w-2/5 mx-5">
       <h2 className="font-black text-3xl text-center">Seguimiento pacientes</h2>
 
-      <p className=" text-xl mt-5 text-center mb-10">
+      <p className="text-lg mt-5 text-center mb-10">
         Añade pacientes y {""}
         <span className=" text-green-600 font-bold  ">Administralos</span>
       </p>
